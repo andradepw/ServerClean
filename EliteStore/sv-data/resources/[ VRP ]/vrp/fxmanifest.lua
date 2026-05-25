@@ -22,6 +22,7 @@ server_scripts {
 	'modules/map.lua',
 	'modules/money.lua',
 	'modules/inventory.lua',
+	'modules/itemcmd.lua',
 	'modules/identity.lua',
 	'modules/aptitude.lua',
 	'modules/basic_items.lua',

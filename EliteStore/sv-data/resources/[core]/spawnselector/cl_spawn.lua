@@ -27,7 +27,7 @@ function getTime()
 end
 
 local SPAWNS = {
-    ["airport"] = vector3(-1037.74,-2738.04,20.1693),
+    ["airport"] = vector3(-1656.54, -3071.73, 13.95),
     ["mrpd"] = vector3(425.06,-979.67,30.71),
     ["hospital"] = vector3(283.83,-578.6,43.21),
     ["mirror"] = vector3(55.58,-876.72,30.66),

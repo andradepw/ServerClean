@@ -1,7 +1,7 @@
 cfg = {
-	thirst_per_minute = 0.65,
-	hunger_per_minute = 0.35,
-	overflow_damage_factor = 30,
+	thirst_per_minute = 0,
+	hunger_per_minute = 0,
+	overflow_damage_factor = 0,
 	pvp = true,
 	police = false
 }
@@ -150,8 +150,8 @@ end
 -- hunger/thirst increase
 function task_update()
   for k,v in pairs(vRP.users) do
-    vRP.varyHunger(v,cfg.hunger_per_minute)
-    vRP.varyThirst(v,cfg.thirst_per_minute)
+    vRP.varyHunger(v,0)
+    vRP.varyThirst(v,0)
   end
 
   SetTimeout(60000,task_update)

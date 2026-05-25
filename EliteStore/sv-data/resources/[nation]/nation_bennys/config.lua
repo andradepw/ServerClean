@@ -320,12 +320,12 @@ config.locais = {
 	[8] = vec3(871.87, -1929.45, 96.09), -- Tunagem de Helicopteros
 	[9] = vec3(895.9, -2103.24, 30.47),
 	[10] = vec3(903.3, -2103.24, 30.47),
-	[11] = vec3(913.58, -2103.6, 30.46),
+	[11] = vec3(-1656.72, -3071.97, 13.94),
 
 
 }
 
-config.permissao = 	"mecanico.permissao"
+config.permissao = 	"manager.permissao"
 
 config.use_vehlist = true
 
